@@ -1,0 +1,13 @@
+theme: jekyll-theme-minimal
+title: 植物大战僵尸2官网
+description: 植物大战僵尸2官网提供最齐全的《植物大战僵尸2》攻略和版本信息。包括资源下载等产品服务,提供原创、优质、完整、专业的《植物大战僵尸2》资讯
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+markdonw: kramdown
+author:
+  name: pvz2
+  email: admin@pvz2.com
+github:
+  is_user_page: false
+  is_project_page: false
