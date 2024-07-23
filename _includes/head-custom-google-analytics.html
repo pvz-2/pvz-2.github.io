@@ -8,11 +8,14 @@
 
   gtag('config', '{{ site.google_analytics }}');
 </script>
+{% endif %}
+
+{% if site.baidu_analytics %}
 <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?9807dfaa11b2d4e35311736470d6a0d2";
+  hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu_analytics }}";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
